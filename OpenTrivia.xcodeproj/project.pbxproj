@@ -103,18 +103,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC79402E24BBF75000FA5ADB /* Screenshots */ = {
+		CC79403124BBF7FC00FA5ADB /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
 				CC79402F24BBF77C00FA5ADB /* screenshots.png */,
 			);
-			name = Screenshots;
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		CC7C341324BBDF0700709BC1 = {
 			isa = PBXGroup;
 			children = (
-				CC79402E24BBF75000FA5ADB /* Screenshots */,
+				CC79403124BBF7FC00FA5ADB /* Screenshots */,
 				CC8B5E9D24BBE63500BCFE19 /* Readme.md */,
 				CC7C341E24BBDF0700709BC1 /* OpenTrivia */,
 				CC7C341D24BBDF0700709BC1 /* Products */,
