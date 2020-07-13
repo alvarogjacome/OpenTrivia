@@ -48,6 +48,6 @@ struct AnswerCellView: View {
             .stroke(lineWidth: 3)
             .foregroundColor(CustomColor.estateBlue)
         )
-        .padding(.horizontal, 10)
+            .padding(.horizontal, 10)
     }
 }
