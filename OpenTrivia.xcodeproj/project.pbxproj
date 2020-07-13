@@ -10,7 +10,6 @@
 		CC7C342024BBDF0700709BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C341F24BBDF0700709BC1 /* AppDelegate.swift */; };
 		CC7C342224BBDF0700709BC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C342124BBDF0700709BC1 /* SceneDelegate.swift */; };
 		CC7C342624BBDF0800709BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7C342524BBDF0800709BC1 /* Assets.xcassets */; };
-		CC7C342924BBDF0800709BC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7C342824BBDF0800709BC1 /* Preview Assets.xcassets */; };
 		CC7C342C24BBDF0800709BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7C342A24BBDF0800709BC1 /* LaunchScreen.storyboard */; };
 		CC8B5E7B24BBE0B400BCFE19 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8B5E5324BBE0B300BCFE19 /* Constants.swift */; };
 		CC8B5E7C24BBE0B400BCFE19 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8B5E5424BBE0B300BCFE19 /* CustomColor.swift */; };
@@ -52,7 +51,6 @@
 		CC7C341F24BBDF0700709BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7C342124BBDF0700709BC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CC7C342524BBDF0800709BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC7C342824BBDF0800709BC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC7C342B24BBDF0800709BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC7C342D24BBDF0800709BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC8B5E5324BBE0B300BCFE19 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -129,17 +127,8 @@
 				CC8B5E7024BBE0B400BCFE19 /* Utils */,
 				CC8B5E5624BBE0B300BCFE19 /* ViewModels */,
 				CC8B5E6724BBE0B400BCFE19 /* Views */,
-				CC7C342724BBDF0800709BC1 /* Preview Content */,
 			);
 			path = OpenTrivia;
-			sourceTree = "<group>";
-		};
-		CC7C342724BBDF0800709BC1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CC7C342824BBDF0800709BC1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		CC8B5E5224BBE0B300BCFE19 /* Enums */ = {
@@ -302,7 +291,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7C342C24BBDF0800709BC1 /* LaunchScreen.storyboard in Resources */,
-				CC7C342924BBDF0800709BC1 /* Preview Assets.xcassets in Resources */,
 				CC7C342624BBDF0800709BC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -470,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -485,7 +473,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"OpenTrivia/Preview Content\"";
 				DEVELOPMENT_TEAM = M9R5VTJGJ5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = OpenTrivia/Info.plist;
@@ -505,7 +492,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"OpenTrivia/Preview Content\"";
 				DEVELOPMENT_TEAM = M9R5VTJGJ5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = OpenTrivia/Info.plist;
