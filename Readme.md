@@ -17,4 +17,5 @@
 The app does not use any third party libraries. Developed using native frameworks:
 - SwiftUI
 - Combine
+
 Everything is native, including animations like the one in the loading screen or the timer.
