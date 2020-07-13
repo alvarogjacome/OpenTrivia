@@ -5,7 +5,7 @@
 ![Swift 5.0+](https://img.shields.io/badge/Swift-5.0%2B-orange)
 ![SwiftUI](https://img.shields.io/badge/UIFramework-SwiftUI-blue)
 
-![OpenTrivia](screenshots/screenshots.png)
+![OpenTrivia](Screenshots/screenshots.png)
 
 ## Requirements
 
