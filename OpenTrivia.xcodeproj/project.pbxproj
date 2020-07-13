@@ -44,6 +44,7 @@
 		CC8B5E9924BBE0B400BCFE19 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8B5E7724BBE0B400BCFE19 /* Player.swift */; };
 		CC8B5E9A24BBE0B400BCFE19 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8B5E7924BBE0B400BCFE19 /* NetworkManager.swift */; };
 		CC8B5E9B24BBE0B400BCFE19 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8B5E7A24BBE0B400BCFE19 /* GameManager.swift */; };
+		CC8B5E9E24BBE63500BCFE19 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CC8B5E9D24BBE63500BCFE19 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		CC8B5E7724BBE0B400BCFE19 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		CC8B5E7924BBE0B400BCFE19 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CC8B5E7A24BBE0B400BCFE19 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		CC8B5E9D24BBE63500BCFE19 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		CC7C341324BBDF0700709BC1 = {
 			isa = PBXGroup;
 			children = (
+				CC8B5E9D24BBE63500BCFE19 /* Readme.md */,
 				CC7C341E24BBDF0700709BC1 /* OpenTrivia */,
 				CC7C341D24BBDF0700709BC1 /* Products */,
 			);
@@ -292,6 +295,7 @@
 			files = (
 				CC7C342C24BBDF0800709BC1 /* LaunchScreen.storyboard in Resources */,
 				CC7C342624BBDF0800709BC1 /* Assets.xcassets in Resources */,
+				CC8B5E9E24BBE63500BCFE19 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
