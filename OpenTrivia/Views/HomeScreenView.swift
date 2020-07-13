@@ -54,6 +54,6 @@ struct HomeScreenView: View {
             }
             .navigationBarTitle("")
             .navigationBarHidden(true)
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }

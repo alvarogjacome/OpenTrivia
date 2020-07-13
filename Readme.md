@@ -1,5 +1,5 @@
 # OpenTrivia
-> Simple Trivia game for iOS for 2 players developed in SwiftUI using Open Trivia DB
+> Simple Trivia game for iPhone & iPad for 2 players developed in SwiftUI using Open Trivia DB
 
 ![iOS 13.1+](https://img.shields.io/badge/iOS-13.1%2B-red)
 ![Swift 5.0+](https://img.shields.io/badge/Swift-5.0%2B-orange)

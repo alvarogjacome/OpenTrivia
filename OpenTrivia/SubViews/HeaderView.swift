@@ -35,13 +35,11 @@ struct HeaderView: View {
                     Text(String(format: Strings.timeRemaining, Int(ceil(self.timeRemaining))))
                     Spacer()
                     SFSymbols.clock
-                        .resizable()
-                        .frame(width: (UIScreen.screenWidth / 15) - 14, height: (UIScreen.screenWidth / 15) - 14)
+                        .opacity(0.8)
                 }
-                .font(.caption)
                 .foregroundColor(Color(.secondaryLabel))
                 .padding()
-                .frame(width: UIScreen.screenWidth - 50, alignment: .leading)
+                .frame(width: UIScreen.screenWidth - 60, alignment: .leading)
             }
         }
     }
